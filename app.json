@@ -62,6 +62,33 @@
     ]
   }
 }      [
+        "expo-image-picker",
+        {
+          "photosPermission": "ZAO needs access to your photos so you can attach images to chat.",
+          "cameraPermission": "ZAO needs camera access so you can take a photo to attach to your chat."
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "ZAO needs access to your photos to save images from chat.",
+          "savePhotosPermission": "ZAO needs permission to save images from chat to your photos.",
+          "isAccessMediaLocationEnabled": false
+        }
+      ],
+      [
+        "llama.rn",
+        {
+          "enableEntitlements": true,
+          "entitlementsProfile": "production",
+          "forceCxx20": true,
+          "enableOpenCL": false
+        }
+      ],
+      "./plugins/withTermuxRunCommand"
+    ]
+  }
+}      [
         "expo-notifications",
         {
           "icon": "./assets/icon.png",
