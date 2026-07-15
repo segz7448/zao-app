@@ -1,0 +1,10 @@
+These two files are fully dead code after this change and should be deleted
+from your repo (nothing imports them anymore):
+
+  src/services/hf/xtts.js
+  src/services/hf/kokoro.js
+
+You can delete them manually, or run this from your repo root after copying
+the rest of this package in:
+
+  rm -f src/services/hf/xtts.js src/services/hf/kokoro.js
