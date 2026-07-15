@@ -692,11 +692,7 @@ function MemorySection({ preferences, onToggle, theme }) {
         </View>
       </Modal>
     </View>
-  );
-}
-}
-
-function SectionHeader({ title, theme }) {
+   {
   return <Text style={[styles.sectionHeader, { color: theme.textTertiary }]}>{title}</Text>;
 }
 
